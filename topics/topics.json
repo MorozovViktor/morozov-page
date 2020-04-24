@@ -1,14 +1,32 @@
 [
     {
         "id": 1,
-        "title": "UML Use Case",
-        "description": "Диаграмма прецедента",
-        "preview": "img/use-case-diagram.png"
+        "title": "Лабораторная работа 1",
+        "description": "Разметка личной страницы, разработка UML диаграммы прецедентов",
+        "preview": "img/1.png"
     },
     {
         "id": 2,
-        "title": "UML Class",
-        "description": "Диаграмма классов",
-        "preview": "img/class-diagram.png"
+        "title": "Лабораторная работа 2",
+        "description": "Заполнение личной страницы, разработка UML Class",
+        "preview": "img/F.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Лабораторная работа 3",
+        "description": "Реализация мини-приложения SPA, разработка UML Sequence",
+        "preview": "img/F.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Лабораторная работа 4",
+        "description": "Реализация приложения на Angular 7, разработка UML Component",
+        "preview": "img/F.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Лабораторная работа 5, 6, 7",
+        "description": "Деловая игра",
+        "preview": "img/F.jpg"
     }
 ]
