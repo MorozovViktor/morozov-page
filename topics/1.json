@@ -2,10 +2,14 @@
     "title": "UML Use Case",
     "items": [
         {
+            "type": "image",
+            "data": "https://github.com/MorozovViktor/morozov-page/blob/master/img/use-case.png"
+        },
+        {
             "type": "text",
             "data": [
                 {
-                    "text": "Разработка диаграммы",
+                    "text": "1. Идентификатор прецедента",
                     "class": "md-title"
                 }
             ]
@@ -14,11 +18,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Диаграмма создана с помощью "
-                },
-                {
-                    "text": "PlantUML",
-                    "link": "https://plantuml.com"
+                    "text": "Выпускная квалификационная работа"
                 }
             ]
         },
@@ -26,19 +26,54 @@
             "type": "text",
             "data": [
                 {
-                    "text": "PlantUML is used to draw UML diagrams, using a simple and human readable text description. Be careful, because it does not prevent you from drawing inconsistent diagrams (such as having two classes inheriting from each other, for example). So it's more a drawing tool than a modeling tool."
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Разметка личной страницы, разработка UML Use Case"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина Проектирование информационных систем"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
                 }
             ]
         },
         {
             "type": "image",
-            "data": "img/use-case-diagram.png"
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/2020-02-19_21-25-02.png?raw=true" 
         },
         {
             "type": "text",
             "data": [
                 {
-                    "text": "Постусловия",
+                    "text": "5. Предусловия (pre-conditions)",
                     "class": "md-title"
                 }
             ]
@@ -46,14 +81,11 @@
         {
             "type": "list",
             "data": [
-                [{
-                    "text": "сформирована личная страница с использованием HTML, CSS, JS"
+                [{                    "text": "освоена работа с личным репозиторием и основными CASE-инструментами"
                 }],
-                [{
-                    "text": "на личной странице зарезервированы места для описания результатов всех следующих лабораторных работ"
+                [{                    "text": "освоены основные приемы преобразования диаграмм IDEF0 в UML USE Case"
                 }],
-                [{
-                    "text": "ссылка на личную страницу записана в списке группы"
+                [{                    "text": "сформированы примеры концептуальных отношений и выбран прецедент для описания"
                 }]
             ]
         },
@@ -61,34 +93,90 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Основной поток (main flow)",
+                    "text": "6. Постусловия (post-conditions)",
                     "class": "md-title"
                 }
             ]
         },
         {
-            "type": "table",
-            "data": {
-                "columns": [
-                    {
-                        "id": "member",
-                        "name": "Участник"
-                    },
-                    {
-                        "id": "action",
-                        "name": "Действие"
-                    },
-                    {
-                        "id": "result",
-                        "name": "Ожидаемый результат"
-                    }
-                ],
-                "rows": [
-                    {"member": "Студент", "action": "Формирует личную веб-страницу", "result": "Личная веб-страница на хостинге <имя>.github.io"},
-                    {"member": "Студент", "action": "Описывает выбранный прецедент", "result": "Описание прецедента на хостинге <имя>.github.io"},
-                    {"member": "Студент", "action": "Формирует диаграмму Use Case", "result": "Диаграмма прецедента на хостинге <имя>.github.io"}
-                ]
-            }
+            "type": "list",
+            "data": [
+                [{                    "text": "сформирована личная страница с использованием HTML, CSS, JS"
+                }],
+                [{                    "text": "на личной странице зарезервированы места для описания результатов всех следующих лабораторных работ"
+                }],
+                [{                    "text": "ссылка на личную страницу записана в списке группы"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток (main flow)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/2020-02-19_21-44-09.png?raw=true" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. Исключения (exceptions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Проблема в корректности имен репозиториев"
+                }],
+                [{                    "text": "Несогласованные по смыслу/содержанию/наполнению UML CASE"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "9. Альтернативы (alternates)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Страница создана с использованием другой разметки"
+                }],
+                [{                    "text": "Страница размещена на другом ресурсе"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "10. Временные параметры",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Триггер (событие, стартующее прецедент): начало занятия по расписанию"
+                }],
+                [{                    "text": "Номинальная частота повторения прецедента: 1 раз в семестр * число студентов (60)"
+                }],
+                [{                    "text": "Продолжительность прецедента: 4 ак.часа = 3 нормочаса"
+                }]
+            ]
         }
     ]
 }
