@@ -3,7 +3,7 @@
     "items": [
         {
             "type": "image",
-            "data": "https://github.com/MorozovViktor/morozov-page/blob/master/img/use-case.png"
+            "data": "img/use-case.png"
         },
         {
             "type": "text",
