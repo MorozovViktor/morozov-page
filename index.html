@@ -61,7 +61,10 @@
   <script src="app/table/table.component.js"></script>
   
    <h1>Лабораторная работа №3. Разработка SPA приложения<h1>
-    <script>
+  	<canvas id="canvas" width="400" height="400"
+					style="background-color:#fef">
+			</canvas>
+				<script>
 					var canvas = document.getElementById("canvas");
 					var ctx = canvas.getContext("2d");
 					var radius = canvas.height / 2;
@@ -80,15 +83,15 @@
 					  ctx.fillStyle = 'white';
 					  ctx.fill();
 					  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-					  grad.addColorStop(0, '#333');
+					  grad.addColorStop(0, '#413');
 					  grad.addColorStop(0.5, 'white');
-					  grad.addColorStop(1, '#333');
+					  grad.addColorStop(1, '#413');
 					  ctx.strokeStyle = grad;
 					  ctx.lineWidth = radius*0.1;
 					  ctx.stroke();
 					  ctx.beginPath();
 					  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-					  ctx.fillStyle = '#333';
+					  ctx.fillStyle = '#213';
 					  ctx.fill();
 							}
 					function drawNumbers(ctx, radius) {
@@ -136,7 +139,7 @@
 					    ctx.stroke();
 					    ctx.rotate(-pos);
 					}
-				</script>
+				</script>			
 
 </body>
 
